@@ -1,3 +1,8 @@
+# Functional Connectivity Regressor
+
+This project aims to predict age based on functional connectivity derived from fMRI data using a deep learning approach by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network regressor.
+
+
 ### Project Overview
 
 This project focuses on analyzing functional connectivity patterns derived from fMRI data using machine learning techniques. Functional connectivity refers to the temporal correlation between spatially distinct brain regions, providing insights into how different brain areas work together.
