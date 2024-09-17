@@ -1,12 +1,9 @@
 # Functional Connectivity Regressor
 
-This project aims to predict age based on functional connectivity derived from fMRI data using a deep learning approach by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network regressor.
+This project aims to predict age based on functional connectivity derived from fMRI data using a deep learning approach by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network regressor. The experiment uses the Developmental fMRI Dataset, which consists of fMRI scans of children (ages 3-13) and young adults (ages 18-39) while they watched movies. This dataset is ideal for demonstrating how machine learning models can be trained to classify participants based on brain connectivity patterns.
 
 
-## Project Overview
-
-This project focuses on analyzing functional connectivity patterns derived from fMRI data using machine learning techniques. Functional connectivity refers to the temporal correlation between spatially distinct brain regions, providing insights into how different brain areas work together.
-
+## Results
 
 ### 1. **Precuneus Superior – Superior Fornix and Isthmus** (Importance: 0.474181)
 
@@ -75,7 +72,13 @@ This project focuses on analyzing functional connectivity patterns derived from 
    - **Neuroscientific Insights**: Significant brain regions contributing to age prediction are identified through feature importance analysis using perturbation methods.
    - **Visualization**: Visualizations such as histograms, connectivity matrices, and feature importance plots provide intuitive insights into data patterns and model outcomes.
 
-## Key Findings
+## Requirements
+
+- Python 3.x
+- Libraries: `nilearn`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `torch`, `optuna`, `scikit-learn`
+- 
+
+## Summary
 
 1. **Functional Connectivity Patterns**:
    - Strong correlations between specific brain regions suggest coordinated activity networks.
