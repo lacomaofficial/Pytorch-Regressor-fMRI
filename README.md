@@ -3,7 +3,7 @@
 This project aims to predict age based on functional connectivity derived from fMRI data using a deep learning approach by analyzing fMRI data during movie watching. The project leverages functional connectivity matrices extracted from fMRI data as input features for a neural network regressor.
 
 
-### Project Overview
+## Project Overview
 
 This project focuses on analyzing functional connectivity patterns derived from fMRI data using machine learning techniques. Functional connectivity refers to the temporal correlation between spatially distinct brain regions, providing insights into how different brain areas work together.
 
@@ -56,7 +56,7 @@ This project focuses on analyzing functional connectivity patterns derived from 
 
 
 
-### Experimental Setup
+## Experimental Setup
 
 1. **Data Acquisition and Preprocessing**:
    - **Data Source**: The data used is from the `development_fmri` dataset obtained via Nilearn, containing fMRI images and associated confound variables.
@@ -75,7 +75,7 @@ This project focuses on analyzing functional connectivity patterns derived from 
    - **Neuroscientific Insights**: Significant brain regions contributing to age prediction are identified through feature importance analysis using perturbation methods.
    - **Visualization**: Visualizations such as histograms, connectivity matrices, and feature importance plots provide intuitive insights into data patterns and model outcomes.
 
-### Key Findings
+## Key Findings
 
 1. **Functional Connectivity Patterns**:
    - Strong correlations between specific brain regions suggest coordinated activity networks.
@@ -89,7 +89,7 @@ This project focuses on analyzing functional connectivity patterns derived from 
    - Integration of machine learning with neuroimaging allows for precise prediction of age from brain connectivity data.
    - Identification of critical brain regions underscores their roles in cognitive functions and developmental trajectories.
 
-### Conclusion
+## Conclusion
 
 This project demonstrates the integration of neuroimaging data analysis with machine learning techniques to uncover meaningful insights into brain connectivity and its relationship with age. By leveraging advanced tools and methodologies, it contributes to understanding neural mechanisms underlying human development and aging processes.
 
